@@ -7,7 +7,7 @@ let playerXScoreDisplay = document.getElementById("playerXScore");
 let playerOScoreDisplay = document.getElementById("playerOScore");
 let player1NameInput = document.getElementById("player1Name");
 let player2NameInput = document.getElementById("player2Name");
-let drawScoreDisplay = document.getElementById("drawScore");
+let drawScoreDisplay = document.getElementById("drawScoreDisplay");
 
 
 // Winning Pattern 
@@ -181,6 +181,8 @@ function updateMessage(message) {
 function updateScoreDisplay() {
   playerXScoreDisplay.innerText = playerXScore;
   playerOScoreDisplay.innerText = playerOScore;
+  drawScoreDisplay.innerText = draws; 
+  
 }
 
 

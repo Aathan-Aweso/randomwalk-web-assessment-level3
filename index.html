@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+   <div class="wrapper">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="message-container">
+
+
+            <label for="player1Name">Player 1 Name:</label>
+            <input type="text" id="player1Name" placeholder="Enter Player 1 Name">
+
+            <label for="player2Name">Player 2 Name:</label>
+            <input type="text" id="player2Name" placeholder="Enter Player 2 Name">
+            <button id="save-names">Save Names</button>
+
+    </div>
+
+    <br>
+       <div class="container">
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+       </div>
+       <div class="message-container2">
+        <!-- <p>Player 1 Score:    <span id="playerXScore">0</span></p>
+        <br>
+        <p>Player 2 Score:    <span id="playerOScore">0</span></p> -->
+
+
+<!-- 
+    <p>Player 1: <span id="displayPlayer1Name">Player 1</span></p>
+    <br>
+    <p>Player 2: <span id="displayPlayer2Name">Player 2</span></p>
+    <br>
+    <p>Score: <span id="playerXScore">0</span> - <span id="playerOScore">0</span></p> -->
+
+
+    <div class="scorecard" id="scorecard">
+        <h2>Scorecard</h2>
+        <p id="player1Score"> <span id="displayPlayer1Name"> </span>: <span id="playerXScore">0</span></p>
+        <p id="player2Score"><span id="displayPlayer2Name"> </span>: <span id="playerOScore">0</span></p>
+        <p id="drawScore">Draws: <span id ="drawScore"> 0 </span></p>
+    </div>
+    </div>
+       <button id="restart">Restart</button>
+   </div>
+   <div class="popup hide">
+       <p id="message">Sample Message</p>
+       <button id="new-game">Play Again</button>
+   </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
